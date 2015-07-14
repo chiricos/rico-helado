@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+}
+#container{
+	background-image: url('img/fondo.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#menu{
+    background-image: url('img/menu.png');
+    background-position: 105% center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 100px;
+    width: 273px;
+    height: 364px;
+    right: 0;
+    left: 5px;
+}
+#redes{
+	background-image: url('img/redes.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 10px;
+	width: 75px;
+	height: 102px;
+	right: 10px;
+}
+#logo{
+	background-image: url('img/logo_ricohelado.png');
+	width: 150px;
+	height: 195px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#flecha_izq{
+	background-image: url('img/flecha_izq.png');
+	position: absolute;
+	bottom:300px;
+	left:0;
+	width: 40px;
+	height: 64px;
+}
+#flecha_der{
+	background-image: url('img/flecha_der.png');
+	position: absolute;
+	bottom:300px;
+	right:0;
+	width: 40px;
+	height: 64px;
+}
